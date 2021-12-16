@@ -13,4 +13,9 @@ exponents(3)
 '''
 
 def exponents(exp): #do not change this line
-  pass #delete this line when you start writing your code
+  dct = {}
+  x = 2
+  while x <= 11:
+    dct[x] = x**exp
+    x += 1
+  return dct

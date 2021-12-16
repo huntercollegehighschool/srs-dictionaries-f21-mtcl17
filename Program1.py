@@ -15,5 +15,12 @@ charcount("The thing.")
 --> returns {'t': 2, 'h': 2, 'e': 1, ' ': 1, 'i': 1, 'n': 1, 'g': 1, '.': 1}
 '''
 
+
 def charcount(message):
-  pass  # delete this line when you start writing your code
+  lower = message.lower()
+  dct = {}
+  for i in lower:
+    dct[i] = lower.count(i)
+  return dct
+
+
