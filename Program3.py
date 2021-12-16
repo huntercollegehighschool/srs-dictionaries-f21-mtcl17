@@ -15,4 +15,4 @@ addtobag(mybag, newloot)
 
 '''
 def addtobag(bag, itemstoadd):
-  pass #delete this line when you start writing your code
+  
